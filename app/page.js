@@ -1,5 +1,6 @@
 import AboutSection from "@/components/AboutSection";
 import NewsSection from "@/components/NewsSection";
+import HonorSection from "@/components/HonorSection";
 import ProjectSection from "@/components/ProjectSection";
 import PublicationsSection from "@/components/SelectedPublicationsSection";
 import bibtex from "@/data/bib/Publications.bib";
@@ -10,6 +11,7 @@ export default function Page() {
     <main className="md:w-[40rem] m-auto px-8 mt-32 flex flex-col gap-10 mb-20">
       {homepageSection.AboutSection && <AboutSection />}
       {homepageSection.NewsSection && <NewsSection />}
+      {homepageSection.HonorSection && <HonorSection />}
       {homepageSection.SelectedPublicationsSection && (
         <PublicationsSection bibtex={bibtex} />
       )}
