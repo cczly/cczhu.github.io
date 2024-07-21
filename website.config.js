@@ -23,8 +23,8 @@ export const websiteInfo = {
 };
 
 export const navigations = [
-  { name: 'Projects', route: '/projects' },
-  { name: 'Publications', route: '/publications' },
+  // { name: 'Projects', route: '/projects' },
+  // { name: 'Publications', route: '/publications' },
   // { name: "News", route: "/news" },
   // { name: 'About', route: '/about' },
   // { name: 'CV', route: '/cv.pdf' },
@@ -34,7 +34,7 @@ export const homepageSection = {
   AboutSection: true,
   NewsSection: true,
   HonorSection: true,
-  SelectedPublicationsSection: true,
+  // SelectedPublicationsSection: true,
   // ProjectSection: true,
 };
 
