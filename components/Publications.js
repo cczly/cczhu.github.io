@@ -61,7 +61,7 @@ export default function Publications({ bibtex }) {
                   />
                 ) : (
                   <Image
-                    src="/best.jpg"
+                    src="/honor.jpg"
                     alt="Honorable Mention"
                     width={20}
                     height={20}
